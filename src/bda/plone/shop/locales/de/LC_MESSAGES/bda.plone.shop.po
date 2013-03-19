@@ -1,148 +1,152 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-11-07 16:41+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: bda.plone.shop\n"
+"POT-Creation-Date: 2013-03-19 15:38+0000\n"
+"PO-Revision-Date: 2013-03-19 16:38+0100\n"
+"Last-Translator: Peter Mathis <peter.mathis@kombinat.at>\n"
+"Language-Team: bluedynamics <i18n@bda.at>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "Language-Code: en\n"
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
+"X-Generator: Poedit 1.5.3\n"
 
-#: ./profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Activate Buyable on Item"
 msgstr "Erweitert Objekt um Shop Artikel Information"
 
-#: ./profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Deactivates Buyable on Item"
 msgstr "Deaktiviert Shop Artikel Information auf dem Objekt"
 
-#: ./profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Disables Buyable"
 msgstr "Deaktiviere Shop Artikel"
 
-#: ./profiles/default/actions.xml
+#: profiles/default/actions.xml
 msgid "Enable Buyable"
 msgstr "Aktiviere Shop Artikel"
 
 #. Default: "add to cart"
-#: ./browser/buyable.pt:50
+#: browser/buyable.pt:59
 msgid "add_to_cart"
 msgstr "hinzufügen"
 
 #. Default: "Comment"
-#: ./browser/buyable.pt:47
+#: browser/buyable.pt:43
 msgid "comment"
 msgstr "Zusatz"
 
 #. Default: "Disabled Buyable."
-#: ./browser/actions.py:32
+#: browser/actions.py:32
 msgid "disabled_buyable"
 msgstr "Shop Artikel Information deaktiviert"
 
 #. Default: "Enabled Buyable."
-#: ./browser/actions.py:23
+#: browser/actions.py:23
 msgid "enabled_buyable"
 msgstr "Shop Artikel Information hinzugefügt"
 
+#. Default: "excl. Vat"
+#: browser/buyable.pt:12
+msgid "exclvat"
+msgstr "exkl. USt."
+
 #. Default: "Export Orders"
-#: ./browser/admin.pt:19
+#: browser/admin.pt:19
 msgid "exportorders"
 msgstr "Export Bestellungen"
 
-#. Default: "Gross"
-#: ./browser/buyable.pt:14
-msgid "gross"
-msgstr "Brutto"
+#. Default: "incl. Vat"
+#: browser/buyable.pt:15
+msgid "inclvat"
+msgstr "inkl. USt."
 
 #. Default: "Kilo"
-#: ./extender.py:56
+#: extender.py:56
 msgid "kilo"
 msgstr "Kilo"
 
 #. Default: "Comment enabled"
-#: ./extender.py:95
+#: extender.py:95
 msgid "label_item_comment_enabled"
 msgstr "Zusatzinformation erlaubt"
 
 #. Default: "Comment required"
-#: ./extender.py:103
+#: extender.py:103
 msgid "label_item_comment_required"
 msgstr "Zusatzinformation erforderlich"
 
 #. Default: "Display Gross"
-#: ./extender.py:87
+#: extender.py:87
 msgid "label_item_display_gross"
 msgstr "Zeige Preis in Brutto"
 
 #. Default: "Item net price"
-#: ./extender.py:72
+#: extender.py:72
 msgid "label_item_net"
 msgstr "Netto Preis"
 
 #. Default: "Quantity unit"
-#: ./extender.py:120
+#: extender.py:120
 msgid "label_item_quantity_unit"
 msgstr "Einheit"
 
 #. Default: "Quantity as float"
-#: ./extender.py:111
+#: extender.py:111
 msgid "label_item_quantity_unit_float"
 msgstr "Dezimaleingabe bei Anzahl erlaubt"
 
 #. Default: "Item VAT (in %)"
-#: ./extender.py:79
+#: extender.py:79
 msgid "label_item_vat"
 msgstr "Umsatzsteuer (in %)"
 
+#. Default: "Quantity"
+#: browser/buyable.pt:26
+msgid "label_quantity"
+msgstr "Menge"
+
 #. Default: "Liter"
-#: ./extender.py:57
+#: extender.py:57
 msgid "liter"
 msgstr "Liter"
 
 #. Default: "Meter"
-#: ./extender.py:55
+#: extender.py:55
 msgid "meter"
 msgstr "Meter"
 
-#. Default: "Net"
-#: ./browser/buyable.pt:5
-msgid "net"
-msgstr "Netto"
-
 #. Default: "Orders"
-#: ./browser/admin.pt:14
+#: browser/admin.pt:14
 msgid "orders"
 msgstr "Bestellungen"
 
+#. Default: "Net"
+#: browser/buyable.pt:6
+msgid "price"
+msgstr "Preis"
+
 #. Default: "Quantity"
-#: ./extender.py:54
+#: extender.py:54
 msgid "quantity"
 msgstr "Anzahl"
 
 #. Default: "Shop Administration"
-#: ./browser/admin.py:18
-#, fuzzy
+#: browser/admin.py:18
 msgid "shop_admin"
 msgstr "Shop Administration"
 
 #. Default: "Shop Admin"
-#: ./browser/admin.pt:7
+#: browser/admin.pt:7
 msgid "shop_admin_heading"
 msgstr ""
 
 #. Default: "update cart"
-#: ./browser/buyable.pt:54
+#: browser/buyable.pt:63
 msgid "update_cart"
 msgstr "aktualisieren"
-
-#. Default: "Vat"
-#: ./browser/buyable.pt:8
-msgid "vat"
-msgstr "USt"
-

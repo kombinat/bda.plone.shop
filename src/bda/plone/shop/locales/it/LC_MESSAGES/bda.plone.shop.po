@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2012-11-07 16:41+0000\n"
+"POT-Creation-Date: 2013-03-19 15:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,12 +32,12 @@ msgid "Enable Buyable"
 msgstr ""
 
 #. Default: "add to cart"
-#: ./browser/buyable.pt:50
+#: ./browser/buyable.pt:59
 msgid "add_to_cart"
 msgstr ""
 
 #. Default: "Comment"
-#: ./browser/buyable.pt:47
+#: ./browser/buyable.pt:43
 msgid "comment"
 msgstr ""
 
@@ -51,14 +51,19 @@ msgstr ""
 msgid "enabled_buyable"
 msgstr ""
 
+#. Default: "excl. Vat"
+#: ./browser/buyable.pt:12
+msgid "exclvat"
+msgstr ""
+
 #. Default: "Export Orders"
 #: ./browser/admin.pt:19
 msgid "exportorders"
 msgstr ""
 
-#. Default: "Gross"
-#: ./browser/buyable.pt:14
-msgid "gross"
+#. Default: "incl. Vat"
+#: ./browser/buyable.pt:15
+msgid "inclvat"
 msgstr ""
 
 #. Default: "Kilo"
@@ -101,6 +106,11 @@ msgstr ""
 msgid "label_item_vat"
 msgstr ""
 
+#. Default: "Quantity"
+#: ./browser/buyable.pt:26
+msgid "label_quantity"
+msgstr ""
+
 #. Default: "Liter"
 #: ./extender.py:57
 msgid "liter"
@@ -111,14 +121,14 @@ msgstr ""
 msgid "meter"
 msgstr ""
 
-#. Default: "Net"
-#: ./browser/buyable.pt:5
-msgid "net"
-msgstr ""
-
 #. Default: "Orders"
 #: ./browser/admin.pt:14
 msgid "orders"
+msgstr ""
+
+#. Default: "Net"
+#: ./browser/buyable.pt:6
+msgid "price"
 msgstr ""
 
 #. Default: "Quantity"
@@ -137,12 +147,7 @@ msgid "shop_admin_heading"
 msgstr ""
 
 #. Default: "update cart"
-#: ./browser/buyable.pt:54
+#: ./browser/buyable.pt:63
 msgid "update_cart"
-msgstr ""
-
-#. Default: "Vat"
-#: ./browser/buyable.pt:8
-msgid "vat"
 msgstr ""
 
